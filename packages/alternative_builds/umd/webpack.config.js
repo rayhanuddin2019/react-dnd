@@ -27,6 +27,12 @@ function createWebpackConfiguration() {
 					commonjs: 'react',
 					amd: 'react',
 				},
+				'react-dnd': {
+					root: 'ReactDnD',
+					commonjs2: 'react-dnd',
+					commonjs: 'react-dnd',
+					amd: 'react-dnd',
+				},
 			},
 		],
 	}

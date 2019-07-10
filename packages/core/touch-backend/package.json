@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"clean": "../../../scripts/clean_package.sh",
-		"build": "../../../scripts/build_package.sh",
+		"build": "../../../scripts/build_package.sh 1",
 		"start": "../../../scripts/watch_package.sh"
 	},
 	"dependencies": {
