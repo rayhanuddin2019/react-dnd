@@ -1,4 +1,3 @@
-import invariant from 'invariant'
 import {
 	Action,
 	DragDropManager,
@@ -10,8 +9,8 @@ import {
 } from '../../interfaces'
 import { setClientOffset } from './local/setClientOffset'
 import { isObject } from '../../utils/js_utils'
-
 import { BEGIN_DRAG, INIT_COORDS } from './types'
+import invariant from 'invariantx'
 
 const ResetCoordinatesAction = {
 	type: INIT_COORDS,

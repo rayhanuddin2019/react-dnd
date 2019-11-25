@@ -1,6 +1,4 @@
 import { Store } from 'redux'
-import asap from 'asap'
-import invariant from 'invariant'
 import {
 	addSource,
 	addTarget,
@@ -23,6 +21,9 @@ import {
 	validateTargetContract,
 	validateType,
 } from './contracts'
+import invariant from 'invariantx'
+
+const asap = require('asap')
 
 function getNextHandlerId(role: HandlerRole): string {
 	const id = getNextUniqueId().toString()

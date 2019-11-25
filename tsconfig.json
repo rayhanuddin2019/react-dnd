@@ -2,7 +2,6 @@
 	"extends": "./tsconfig.base.json",
 	"compilerOptions": {
 		"baseUrl": ".",
-		"allowSyntheticDefaultImports": true,
 		"paths": {
 			"dnd-core": ["packages/core/dnd-core/src/index"],
 			"dnd-core/*": ["packages/core/dnd-core/src/*"],

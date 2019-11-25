@@ -1,5 +1,4 @@
 import { Store } from 'redux'
-import invariant from 'invariant'
 import matchesType from './utils/matchesType'
 import {
 	getSourceClientOffset,
@@ -15,6 +14,7 @@ import {
 	HandlerRegistry,
 	Identifier,
 } from './interfaces'
+import invariant from 'invariantx'
 
 export default class DragDropMonitorImpl implements DragDropMonitor {
 	private store: Store<State>

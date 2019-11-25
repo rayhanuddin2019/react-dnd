@@ -1,9 +1,8 @@
 declare const process: any
 
 import * as React from 'react'
-import shallowEqual from 'shallowequal'
-import invariant from 'invariant'
-import hoistStatics from 'hoist-non-react-statics'
+import shallowEqual from 'shallowequalx'
+import invariant from 'invariantx'
 import { DragDropManager, Identifier } from 'dnd-core'
 import { DndContext } from '../index'
 import { isPlainObject } from '../utils/js_utils'
@@ -15,6 +14,8 @@ import {
 	SerialDisposable,
 } from './disposables'
 import { isRefable } from './utils'
+
+const hoistStatics = require('hoist-non-react-statics')
 
 export interface DecorateHandlerArgs<Props, ItemIdType> {
 	DecoratedComponent: any

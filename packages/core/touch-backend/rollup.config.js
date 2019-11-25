@@ -48,7 +48,6 @@ export default {
 					'@babel/env',
 					{
 						modules: 'false',
-						corejs: '3.0.0',
 						targets: {
 							browsers: '> 0.25%, not dead',
 							node: 8,

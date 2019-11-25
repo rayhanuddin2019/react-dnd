@@ -1,8 +1,9 @@
 #!/bin/sh
+set -e
+
 npx tsc
-npx babel --config-file=../../../babel.config.js lib --ignore="src/**/__tests__/**" --out-dir dist/esm &
-npx babel --config-file=../../../babel.config.cjs.js lib --ignore="src/**/__tests__/**" --out-dir dist/cjs &
-wait
+npx babel --config-file=../../../babel.config.js lib --ignore="src/**/__tests__/**" --out-dir dist/esm
+npx babel --config-file=../../../babel.config.cjs.js lib --ignore="src/**/__tests__/**" --out-dir dist/cjs
 
 if [ -f ./rollup.config.js ]
 then

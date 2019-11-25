@@ -1,4 +1,3 @@
-import invariant from 'invariant'
 import {
 	Action,
 	DragDropManager,
@@ -8,6 +7,7 @@ import {
 	HandlerRegistry,
 } from '../../interfaces'
 import matchesType from '../../utils/matchesType'
+import invariant from 'invariantx'
 import { HOVER } from './types'
 
 export default function createHover(manager: DragDropManager) {
