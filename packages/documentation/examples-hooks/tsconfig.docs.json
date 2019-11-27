@@ -1,13 +1,10 @@
 {
-	"extends": "./tsconfig.json",
-	"compilerOptions": {
-		"allowSyntheticDefaultImports": true,
-		"jsx": "preserve",
-		"outDir": "./lib/docs",
-		"baseUrl": "./",
-		"declaration": false,
-		"emitDeclarationOnly": false,
-		"removeComments": false
-	},
-	"include": ["./src/index.ts"]
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "outDir": "./lib/docs",
+    "declaration": false,
+    "removeComments": false
+  },
+  "include": ["./src/index.ts"]
 }
