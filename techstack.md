@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 rayhanuddin2019/react-dnd is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [React](https://reactjs.org/) – Javascript UI Libraries
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -21,11 +22,13 @@ rayhanuddin2019/react-dnd is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 rayhanuddin2019/react-dnd is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -45,14 +48,15 @@ rayhanuddin2019/react-dnd is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [rayhanuddin2019/react-dnd](https://github.com/rayhanuddin2019/react-dnd)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|70<br/>Tools used|11/10/23 <br/>Report generated|
+|72<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -247,9 +251,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (49)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (51)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (49)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (51)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -285,9 +289,11 @@ Full tech stack [here](/techstack.md)
 |[gatsby-transformer-remark](https://www.npmjs.com/gatsby-transformer-remark)|v2.6.42|11/23/19|Chris Trevino |MIT|[CVE-2023-22491](https://github.com/advisories/GHSA-7ch4-rr99-cqcw) (High)|
 |[gatsby-transformer-sharp](https://www.npmjs.com/gatsby-transformer-sharp)|v2.3.9|11/23/19|Chris Trevino |MIT|N/A|
 |[hoist-non-react-statics](https://www.npmjs.com/hoist-non-react-statics)|v3.3.1|12/07/19|Chris Trevino |BSD-3-Clause|N/A|
+|[husky](https://www.npmjs.com/husky)|v3.1.0|11/24/19|Chris Trevino |MIT|N/A|
 |[immutability-helper](https://www.npmjs.com/immutability-helper)|v3.0.1|09/20/19|Chris Trevino |MIT|N/A|
 |[inquirer](https://www.npmjs.com/inquirer)|v3.3.0|09/20/19|Chris Trevino |MIT|N/A|
 |[jest-environment-jsdom](https://www.npmjs.com/jest-environment-jsdom)|v24.9.0|12/07/19|Chris Trevino |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v9.5.0|11/24/19|Chris Trevino |MIT|N/A|
 |[npm-run-all](https://www.npmjs.com/npm-run-all)|v4.1.5|11/26/19|Chris Trevino |MIT|N/A|
 |[pretty-quick](https://www.npmjs.com/pretty-quick)|v2.0.1|11/24/19|Chris Trevino |MIT|N/A|
 |[prismjs](https://www.npmjs.com/prismjs)|v1.17.1|11/13/19|Chris Trevino |MIT|[CVE-2022-23647](https://github.com/advisories/GHSA-3949-f494-cm99) (High)<br/>[CVE-2020-15138](https://github.com/advisories/GHSA-wvhm-4hhf-97x9) (High)<br/>[CVE-2021-23341](https://github.com/advisories/GHSA-h4hr-7fg3-h35w) (High)<br/>[CVE-2021-32723](https://github.com/advisories/GHSA-gj77-59wh-66hg) (High)<br/>[CVE-2021-3801](https://github.com/advisories/GHSA-hqhp-5p83-hx96) (Moderate)|
@@ -306,4 +312,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
