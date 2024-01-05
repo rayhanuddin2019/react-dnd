@@ -1,11 +1,12 @@
 repo_name: rayhanuddin2019/react-dnd
 report_id: 93ba4c79509b5d3831df68027973fb6e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T14:56:32+00:00'
+timestamp: '2024-01-05T08:53:57+00:00'
 requested_by: dependabot-preview[bot]
 provider: github
 branch: master
-detected_tools_count: 70
+detected_tools_count: 72
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd
   detection_source: Repo Metadata
 - name: React
   description: A JavaScript library for building user interfaces
@@ -37,8 +40,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: yarn.lock
-  detection_source: packages/testing/test-utils/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
 - name: Redux
@@ -50,7 +53,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/4074/13142323.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/core/dnd-core/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-09-20 20:43:55.000000000 Z
@@ -65,7 +68,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/6749/styled-components.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-13 04:52:25.000000000 Z
@@ -79,8 +82,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: babel.config.js
   last_updated_by: Chris Trevino
   last_updated_on: 2019-07-10 20:59:57.000000000 Z
 - name: ESLint
@@ -92,7 +95,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: packages/documentation/examples-hooks/.eslintrc
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/.eslintrc
+  detection_source: ".eslintrc"
   last_updated_by: Chris Trevino
   last_updated_on: 2019-06-07 17:29:12.000000000 Z
 - name: Enzyme
@@ -105,7 +109,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -117,6 +121,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -126,7 +131,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/node-ci.yml"
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/.github/workflows/automerge-dependabot.yml
+  detection_source: ".github/workflows/automerge-dependabot.yml"
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-23 04:18:52.000000000 Z
 - name: Jest
@@ -139,7 +145,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dan Abramov
   last_updated_on: 2014-10-19 13:54:13.000000000 Z
@@ -153,8 +159,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: yarn.lock
-  detection_source: packages/documentation/docsite/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
 - name: Yarn
@@ -165,6 +171,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: yarn.lock
   last_updated_by: Chris Trevino
   last_updated_on: 2017-10-07 16:54:37.000000000 Z
@@ -176,7 +183,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/package.json
+  detection_source: package.json
   last_updated_by: Dan Abramov
   last_updated_on: 2014-10-19 13:54:13.000000000 Z
 - name: rollup
@@ -187,6 +195,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/package.json
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-25 06:02:55.000000000 Z
@@ -201,7 +210,7 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-23 03:05:20.000000000 Z
@@ -215,7 +224,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -229,7 +238,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-13 04:52:25.000000000 Z
@@ -242,12 +251,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/package.json
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
@@ -256,6 +267,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/package.json
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
@@ -269,7 +281,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -283,7 +295,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -298,7 +310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -312,7 +324,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -326,7 +338,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -340,7 +352,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -354,7 +366,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
@@ -368,7 +380,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16307/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -382,8 +394,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17400/default_68a60246a766655932541acc39422873bd51360a.png
-  detection_source_url: yarn.lock
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: packages/documentation/examples-decorators/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
 - name: "@types/jest"
@@ -396,7 +408,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -410,8 +422,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: packages/documentation/examples-decorators/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
 - name: "@types/query-string"
@@ -424,7 +436,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18174/default_0dba38f16e89e401bb4382c2d3f09881aac7fd70.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
@@ -438,8 +450,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: packages/core/html5-backend/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 19:48:19.000000000 Z
 - name: "@types/react-dom"
@@ -452,8 +464,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: packages/core/react-dnd/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:22:42.000000000 Z
 - name: "@types/styled-components"
@@ -466,7 +478,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16494/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
@@ -480,7 +492,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -494,7 +506,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -508,7 +520,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16260/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-26 05:18:35.000000000 Z
@@ -522,7 +534,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
@@ -536,7 +548,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
@@ -550,7 +562,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16088/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
@@ -564,7 +576,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-25 06:02:55.000000000 Z
@@ -578,7 +590,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-25 06:02:55.000000000 Z
@@ -592,7 +604,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-25 06:02:55.000000000 Z
@@ -606,8 +618,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
-  detection_source_url: yarn.lock
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: packages/documentation/examples-decorators/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-13 04:52:25.000000000 Z
 - name: gatsby-image
@@ -621,7 +633,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18081/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-23 03:05:20.000000000 Z
@@ -635,7 +647,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17532/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 19:48:19.000000000 Z
@@ -649,7 +661,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17786/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-23 03:05:20.000000000 Z
@@ -671,7 +683,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17100/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-23 03:05:20.000000000 Z
@@ -686,7 +698,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18647/default_3eb5180fb08eb9c684c6269a642bfab3a16bcf1d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-23 03:05:20.000000000 Z
@@ -707,7 +719,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18094/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-23 03:05:20.000000000 Z
@@ -722,10 +734,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/core/react-dnd/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:22:42.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Chris Trevino
+  last_updated_on: 2019-11-24 23:58:09.000000000 Z
 - name: immutability-helper
   description: Mutate a copy of data without changing the original source
   package_url: https://www.npmjs.com/immutability-helper
@@ -736,8 +762,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17042/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
-  detection_source_url: yarn.lock
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: packages/documentation/examples-decorators/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-09-20 19:55:31.000000000 Z
 - name: inquirer
@@ -750,7 +776,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-09-20 19:55:31.000000000 Z
@@ -764,10 +790,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 17:05:49.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 9.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Chris Trevino
+  last_updated_on: 2019-11-24 23:58:09.000000000 Z
 - name: npm-run-all
   description: A CLI tool to run multiple npm-scripts in parallel or sequential
   package_url: https://www.npmjs.com/npm-run-all
@@ -778,8 +818,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: yarn.lock
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-26 05:18:35.000000000 Z
 - name: pretty-quick
@@ -792,7 +832,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16281/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
@@ -806,7 +846,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-13 04:52:25.000000000 Z
@@ -851,7 +891,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-09-20 19:55:31.000000000 Z
@@ -865,8 +905,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16710/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
-  detection_source_url: packages/documentation/cra-test/package.json
-  detection_source: packages/testing/test-utils/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/packages/documentation/cra-test/package.json
+  detection_source: packages/documentation/cra-test/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 19:48:19.000000000 Z
 - name: react-dnd-html5-backend
@@ -879,8 +919,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16799/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source_url: packages/documentation/cra-test/package.json
-  detection_source: packages/documentation/examples-hooks/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/packages/documentation/cra-test/package.json
+  detection_source: packages/documentation/cra-test/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 19:48:19.000000000 Z
 - name: react-dom
@@ -893,8 +933,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: packages/testing/test-utils/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
+  detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-24 23:58:09.000000000 Z
 - name: react-helmet
@@ -907,7 +947,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/docsite/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 19:48:19.000000000 Z
@@ -921,7 +961,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: packages/documentation/cra-test/package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-12-07 19:48:19.000000000 Z
@@ -935,7 +975,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16434/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-12-16 08:50:53.000000000 Z
@@ -949,7 +989,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15873/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-25 06:02:55.000000000 Z
@@ -963,7 +1003,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15859/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-25 06:02:55.000000000 Z
@@ -977,7 +1017,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-25 06:02:55.000000000 Z
@@ -992,7 +1032,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/rayhanuddin2019/react-dnd/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Chris Trevino
   last_updated_on: 2019-11-14 18:35:44.000000000 Z
